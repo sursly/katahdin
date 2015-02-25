@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Katahdin Round Bold';
+  src: url('KatahdinRound-Bold.eot'); /* IE9 Compat Modes */
+  src: url('KatahdinRound-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('KatahdinRound-Bold.woff') format('woff'), /* Modern Browsers */
+       url('KatahdinRound-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('KatahdinRound-Bold.svg#70d2bfc85c35028265fa73bb826a63f0') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+  text-rendering: optimizeLegibility;
+}
+
