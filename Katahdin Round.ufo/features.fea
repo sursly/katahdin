@@ -1,0 +1,37 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+# automatic
+@Uppercase = [ E F G H I J K L M N O P Q R S T U V W X Y Z D A B C Ccedilla Aacute Acircumflex Agrave Adieresis Aring Atilde AE Eacute Ecircumflex Edieresis Egrave Iacute Icircumflex Idieresis Igrave Ntilde Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE Uacute Ucircumflex Udieresis Ugrave Ydieresis Abreve Amacron AEacute Cacute Ccaron Ccircumflex Cdotaccent Dcaron Dcroat Ebreve Ecaron Edotaccent Emacron Gbreve Gcircumflex Gdotaccent Hbar Hcircumflex Ibreve Idotaccent Imacron Itilde Jcircumflex Lacute Lcaron Lslash Nacute Ncaron Obreve Ohungarumlaut Omacron Oslashacute Racute Rcaron Sacute Scaron Scedilla Scircumflex Tbar Tcaron Ubreve Uhungarumlaut Umacron Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ygrave Zacute Zcaron Zdotaccent Aogonek Eogonek Iogonek Uogonek Kcommaaccent Lcommaaccent Ncommaaccent uni021A Scommaaccent Rcommaaccent Gcommaaccent Ldot ];
+
+feature aalt {
+# automatic
+feature locl;
+feature ordn;
+} aalt;
+
+feature locl {
+# automatic
+script latn;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+} locl;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature cpsp {
+# automatic
+pos @Uppercase <5 0 10 0>;
+} cpsp;
+
