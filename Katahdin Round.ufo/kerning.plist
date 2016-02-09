@@ -1245,6 +1245,8 @@
 		<integer>-15</integer>
 		<key>one</key>
 		<integer>-39</integer>
+		<key>six</key>
+		<integer>-50</integer>
 		<key>three</key>
 		<integer>-23</integer>
 		<key>two</key>
@@ -1732,7 +1734,7 @@
 		<key>seven</key>
 		<integer>23</integer>
 		<key>six</key>
-		<integer>-63</integer>
+		<integer>-83</integer>
 		<key>zero</key>
 		<integer>-31</integer>
 	</dict>

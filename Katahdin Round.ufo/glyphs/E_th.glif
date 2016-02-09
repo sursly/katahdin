@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="1">
+  <advance width="829"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <component base="D" xOffset="52"/>
+    <component base="macron" xOffset="-32" yOffset="-485"/>
+  </outline>
+</glyph>
