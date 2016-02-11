@@ -285,9 +285,11 @@
 		<string>colon</string>
 		<string>comma</string>
 		<string>exclam</string>
+		<string>exclamdown</string>
 		<string>numbersign</string>
 		<string>period</string>
 		<string>question</string>
+		<string>questiondown</string>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 		<string>semicolon</string>
@@ -309,7 +311,9 @@
 		<string>space</string>
 		<string>CR</string>
 		<string>.notdef</string>
+		<string>cent</string>
 		<string>dollar</string>
+		<string>euro</string>
 		<string>equal</string>
 		<string>greater</string>
 		<string>less</string>
