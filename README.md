@@ -1,4 +1,7 @@
 # Katahdin Round
-A free, open source style of my typeface Katahdin
+
 ========
 _by [Tyler Finck](http://www.tylerfinck.com)_
+
+
+![sample of Katahdin Round](katahdin-sample.png "sample of Katahdin Round")
